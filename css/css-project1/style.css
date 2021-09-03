@@ -3,26 +3,26 @@
     text-align: center;
 }
 
-header h1 {
+#ana-sayfa header h1 {
     color: #CF4E4E;
 }
 
-header ul {
+#ana-sayfa header ul {
     list-style-type: none;
 }
 
-header ul li  {
+#ana-sayfa header ul li  {
     display: inline;
     border:1px solid black;
     padding: 5px;
     transition: all 0.5s;
 }
 
-header ul li:hover {
+#ana-sayfa header ul li:hover {
     background-color: rgb(98, 153, 98);
 }   
 
-header ul li a {
+#ana-sayfa header ul li a {
     text-decoration: none;
     margin: 5px;
 }
