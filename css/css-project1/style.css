@@ -1,0 +1,70 @@
+/* Ana Sayfa için CSS kodları */
+#ana-sayfa{
+    text-align: center;
+}
+
+header h1 {
+    color: #CF4E4E;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li  {
+    display: inline;
+    border:1px solid black;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+header ul li:hover {
+    background-color: rgb(98, 153, 98);
+}   
+
+header ul li a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+.content h2 {
+    color: #5A25C5;
+}
+
+/* Products için CSS kodları */
+
+#products {
+    text-align: center;
+}
+
+.product {
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.product img {
+    width: 200px;
+}
+
+.product button {
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+}
+
+.product button:hover {
+    background-color: orange;
+}
+
+/* About için CSS kodları */
+
+#about {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#about section h3 {
+    color: rgb(209, 144, 23);
+}
