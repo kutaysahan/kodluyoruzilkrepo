@@ -1,0 +1,72 @@
+
+/* Genel CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}   
+/* HTML Elemanlarının kolay hizalanabilmesi için display flex yapısıkullanıldı.*/
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+/* Arama bloğu için CSS kodları.*/
+#app .search {
+    background-color: #EEEEEE;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#app .search input {
+    width: 300px;
+}
+/* Linkler bloğu için CSS kodları */
+#app .links {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 2px;
+}
+#app .links .specialLinks {
+    width: 30%;
+    background-color: rgb(126, 229, 218);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#app .links .shortLinks {
+    width: 19%;
+    background-color: rgb(112, 204, 194);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* getGoogle bloğu için CSS kodları */
+#app .links .getGoogle {
+    width: 50%;
+    background-color: #62B3AA;
+    
+}
+#app .links ul li {
+    list-style-type: none;
+}
+#app .getGoogle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#app .getGoogle .buttonAnchor button {
+    margin-right: 10px;
+    padding-bottom: 2px;
+}
+
+#app .copyright {
+    margin: 10px;
+}

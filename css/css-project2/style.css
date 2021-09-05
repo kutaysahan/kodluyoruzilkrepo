@@ -58,7 +58,7 @@ header .header ul li a img:hover {
 
 
 .search .input input {
-    width: 50%;
+    width: 480px;
     border:none; /* input tag'inden border'i kaldırır.*/
     margin: 0 5px 0 5px;
 }
@@ -86,14 +86,21 @@ header .header ul li a img:hover {
 .search .buttons {
     margin: 10px;
 }
-.search .buttons .btn {
+
+.search .buttons button {
     background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
+    border: 1px solid #f2f2f2;
     border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
     padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
 }
 
-.search .buttons .btn:hover{
+.search .buttons button:hover{
     cursor: pointer;
     border: 1px solid rgb(211, 205, 205);
 }
@@ -111,6 +118,7 @@ header .header ul li a img:hover {
 /* Footer Bloğu */
 /* Footer'ı alta sabitler. */
 footer .footer{
+    background-color:#f2f2f2;
     position: absolute;
     bottom: 0;
     width: 100%; 
@@ -118,7 +126,6 @@ footer .footer{
 }
 
 footer .footer .country {
-    background-color: #f8f9fa;
     height: 50%;
     border-bottom: 1px solid rgb(240, 230, 230);
     margin-bottom: -15px;
@@ -132,9 +139,13 @@ footer .footer p {
 }
 
 footer .footer .footerMenu {
-    background-color: #f8f9fa;
     height: 50%;
+    width: 95%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 footer .footer .footerMenu ul li {
     list-style-type: none;
