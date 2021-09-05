@@ -1,0 +1,152 @@
+/* Font-family olarak open-sans kullanılıyor. */
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header Bloğu */
+header .header ul li {
+    display: inline;
+    float: right;
+    margin: 5px;
+}
+
+header .header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+header .header ul li:nth-child(3):hover{
+    text-decoration: underline;
+}
+
+header .header ul li:nth-child(4):hover{
+    text-decoration: underline;
+}
+
+header .header ul li a img:hover {
+    background-color: rgb(227, 231, 231);
+    border-radius: 100%;
+}
+
+/* Search Bloğu */
+/* Flex bir yapı kullanıldı. */
+.search {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+
+    /* Search div'i Body'nin ortasına ayarlandı. */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search .input {
+    border: 1px solid rgb(230, 222, 222);
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.search .input input {
+    width: 100%;
+    border:none; /* input tag'inden border'i kaldırır.*/
+    margin: 0 5px 0 5px;
+}
+
+/* Input alanının üstüne gelindiğinde */
+.search .input:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Input alanına tıklandığında */
+.search .input input:focus {
+    outline:none;
+}
+
+.search .input :nth-child(1){
+    color: rgb(230, 222, 222);
+}
+.search .input :nth-child(3){
+    color: blue;
+}
+
+.search .buttons {
+    margin: 10px;
+}
+.search .buttons .btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding:10px;
+}
+
+.search .buttons .btn:hover{
+    cursor: pointer;
+    border: 1px solid rgb(211, 205, 205);
+}
+
+.search p a {
+    color: black;
+    text-decoration: none;
+}
+
+.search p a:hover{
+    text-decoration: underline;
+}
+
+
+/* Footer Bloğu */
+/* Footer'ı alta sabitler. */
+footer .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+    height: 6rem; 
+}
+
+footer .footer .country {
+    background-color: #f8f9fa;
+    height: 50%;
+    border-bottom: 1px solid rgb(240, 230, 230);
+    margin-bottom: -15px;
+    display: flex;
+}
+
+footer .footer p {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+footer .footer .footerMenu {
+    background-color: #f8f9fa;
+    height: 50%;
+}
+
+footer .footer .footerMenu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+    
+}
+
+footer .footer .footerMenu ul li a {
+    text-decoration:none;
+    color:black;
+    font-size: 12px;
+}
+
+footer .footer .footerMenu ul li a:hover {
+    text-decoration: underline;
+}
+
