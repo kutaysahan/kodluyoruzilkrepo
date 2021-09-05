@@ -73,9 +73,12 @@ header .header ul li a img:hover {
     outline:none;
 }
 
+/* Search ikonu seçildi.*/
 .search .input :nth-child(1){
     color: rgb(230, 222, 222);
 }
+
+/* Microphone ikonu seçildi. */
 .search .input :nth-child(3){
     color: blue;
 }
