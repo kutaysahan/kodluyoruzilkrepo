@@ -5,7 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
 }   
-/* HTML Elemanlarının kolay hizalanabilmesi için display flex yapısıkullanıldı.*/
+/* HTML Elemanlarının kolay hizalanabilmesi için display flex yapısı kullanıldı.*/
 #app {
     display: flex;
     flex-direction: column;
