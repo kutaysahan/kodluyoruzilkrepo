@@ -14,13 +14,15 @@ header ul {
 
 header ul li  {
     display: inline;
-    border:1px solid black;
+    border:1px solid rgb(184, 175, 175);
+    border-radius: 5px;
     padding: 5px;
     transition: all 0.5s;
 }
 
 header ul li:hover {
-    background-color: rgb(98, 153, 98);
+    background-color: rgb(232, 243, 232);
+    cursor: pointer;
 }   
 
 header ul li a {
