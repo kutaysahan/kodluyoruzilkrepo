@@ -1,0 +1,36 @@
+body {
+    background-color: #E9ECEF;
+}
+
+
+/* List-group-item class'ına sahip liste elemanlarının arkaplan renkleri ve border'ları manuel olarak değiştirildi.*/
+section .content .list-group .list-group-item {
+    background-color: #E9ECEF;
+    border: none;
+}
+
+/* aboutCard id'sine sahip elemanların arkaplan renkleri ve border'ları manuel olarak değiştirildi.*/
+#aboutCard {
+    background-color: #E9ECEF;
+    border: none;
+}
+
+
+/* xs ve sm boyutlarında ürün kartları flex yapısı kullanılarak ortalandı.*/
+@media only screen and (max-width: 600px) {
+    
+    section .row .col-xs-12 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    
+    section .row .col-sm-12 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
