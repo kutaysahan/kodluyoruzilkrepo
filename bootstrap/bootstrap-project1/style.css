@@ -16,21 +16,3 @@ section .content .list-group .list-group-item {
 }
 
 
-/* xs ve sm boyutlarında ürün kartları flex yapısı kullanılarak ortalandı.*/
-@media only screen and (max-width: 600px) {
-    
-    section .row .col-xs-12 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    
-    section .row .col-sm-12 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
