@@ -1,0 +1,36 @@
+input {
+    padding: 10px;
+  }
+
+  #btn:hover{
+    background-color: rgb(187, 187, 187);
+    transition: all 0.5s;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .list-group-item {
+    cursor: pointer;
+  }
+
+  .list-group-item-my-class-inactive:hover {
+    background-color: rgb(201, 201, 201);
+  }
+
+  .list-group-item-my-class-active {
+    background-color: rgb(129, 129, 158);
+    text-decoration: line-through;
+  }
+
+  .list-group-item-my-class-inactive {
+    background-color: #fff;
+    text-decoration: none;
+  }
+
+  #closeBtn:hover {
+    background-color: rgb(208, 200, 200);
+    border: 0;
+    outline: 0;
+  }
