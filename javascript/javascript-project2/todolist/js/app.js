@@ -3,9 +3,12 @@ addTask = () =>{
           
     let inputValue = document.querySelector("#input").value; // input değerini alır.
     
+    localStorage.setItem("inputValue",inputValue); // input değeri local olarak tutunur.
+
     // eger input bossa
     if(inputValue === ""){
 
+      // toast islemleri
       let option = {
         animation : true,
         delay : 2000
@@ -22,19 +25,19 @@ addTask = () =>{
       // li elementinin içeriğini tanımlar.
       li.innerHTML = ` 
 
-      <li class="list-group-item d-flex align-items-center" onclick="completeTask(event)">
-          ${inputValue}
+      <li class="list-group-item d-flex align-items-center mt-2" onclick="completeTask(event)">
+          ${localStorage.getItem("inputValue")}
         <button id="closeBtn" type="button" class="btn-close ms-auto" aria-label="Close"
         onclick="removeTask(event)"></button>
       </li>
-
       `;
-
+      
       document.querySelector("#list").appendChild(li);  // ul'nin içine li'yi ekler.
       document.querySelector("#input").value = ""; // inputun içerisini temizler.
     }
   }
 
+  // ekle butonu enter ile tetiklenir.
   document.getElementById("input").addEventListener("keyup",function(event){
     if(event.keyCode === 13){
       addTask();
