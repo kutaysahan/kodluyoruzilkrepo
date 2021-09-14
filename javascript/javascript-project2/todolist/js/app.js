@@ -1,4 +1,6 @@
 
+
+
 // todolist'e görev ekleyen metot.
 addTask = () =>{
           
@@ -18,14 +20,13 @@ addTask = () =>{
       toastElement.show();
 
     } else { 
-
       let li = document.createElement("li"); // li elementi olusturur.
     
       // li elementinin içeriğini tanımlar.
       li.innerHTML = ` 
 
       <li class="list-group-item d-flex align-items-center mt-2" onclick="completeTask(event)">
-          ${inputValue}
+          <span>${inputValue}</span>
         <button id="closeBtn" type="button" class="btn-close ms-auto" aria-label="Close"
         onclick="removeTask(event)"></button>
       </li>

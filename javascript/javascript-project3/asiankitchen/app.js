@@ -107,7 +107,7 @@ content.innerHTML = `
     <img src="./images/cover.jpg" class="card-img-top img-fluid" alt="asian-food">
     <div class="card-body">
       <h5 class="card-title">Asian Kitchen</h5>
-      <p class="card-text">Kategori kısmından menülerini inceleyebilirsiniz. Afiyet olsun! </p>
+      <p class="card-text">Use categories to see the menus. Enjoy your meal!</p>
     </div>
   </div>
 `;
@@ -120,7 +120,7 @@ showHomePage = () => {
       <img src="./images/cover.jpg" class="card-img-top img-fluid"  alt="asian-food">
       <div class="card-body">
         <h5 class="card-title">Asian Kitchen</h5>
-        <p class="card-text">Kategori kısmından menülerini inceleyebilirsiniz.  Afiyet olsun! </p>
+        <p class="card-text">Use categories to see the menus. Enjoy your meal!</p>
       </div>
     </div>
 `;
@@ -162,10 +162,8 @@ showAll = () =>{
 // menu icerisinden kore yemegi olanlar secildi.
 const koreaMenu = menu.filter(item => item.category === "Korea");
 
-
 // kore menusunu gosterir.
 showKorea = () => {
-
   content.innerHTML = ``;
 
   koreaMenu.forEach(item => {
@@ -193,7 +191,6 @@ showKorea = () => {
     </div>
     
     `;
-
 });
 }
 
