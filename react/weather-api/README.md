@@ -1,1 +1,1 @@
-# Weather API
+# 7 Days Weather Forecast API
