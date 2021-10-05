@@ -1,0 +1,11 @@
+.error {
+    color: red;
+}
+
+.success {
+    color: rgb(45, 224, 45);
+}
+
+.justify{
+    text-align: justify;
+}
