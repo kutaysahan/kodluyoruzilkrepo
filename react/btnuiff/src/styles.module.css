@@ -1,0 +1,47 @@
+.btn {
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.primary {
+  background-color: rgb(64, 64, 199);
+  border: 2px solid blue;
+  color: #fff;
+}
+
+.default {
+  background-color: rgb(224, 217, 217);
+  border: 2px solid gray;
+  color: #000;
+
+}
+
+.dashed {
+  background-color: rgb(224,217,217);
+  border-style: dashed;
+  color: #000;
+}
+
+.text {
+  background-color: none;
+  border: none;
+  color: blue;
+}
+
+.link {
+  background: none;
+  border: none;
+  color: #000;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: blue;
+}
